@@ -16,6 +16,12 @@ public protocol SGSafeable {
     var bottom: NSLayoutYAxisAnchor { get }
     var left: NSLayoutXAxisAnchor { get }
     var right: NSLayoutXAxisAnchor { get }
+    var leading: NSLayoutXAxisAnchor { get }
+    var trailing: NSLayoutXAxisAnchor { get }
+    var width: NSLayoutDimension { get }
+    var height: NSLayoutDimension { get }
+    var centerX: NSLayoutXAxisAnchor { get }
+    var centerY: NSLayoutYAxisAnchor { get }
 }
 
 extension SGSafeable where Safeable == UIView {
@@ -51,6 +57,48 @@ extension SGSafeable where Safeable == UIView {
         }
         return view.rightAnchor
     }
+    
+    public var leading: NSLayoutXAxisAnchor {
+        if #available(iOS 11.0, *) {
+            return view.safeAreaLayoutGuide.leadingAnchor
+        }
+        return view.leadingAnchor
+    }
+    
+    public var trailing: NSLayoutXAxisAnchor {
+        if #available(iOS 11.0, *) {
+            return view.safeAreaLayoutGuide.trailingAnchor
+        }
+        return view.trailingAnchor
+    }
+    
+    public var width: NSLayoutDimension {
+        if #available(iOS 11.0, *) {
+            return view.safeAreaLayoutGuide.widthAnchor
+        }
+        return view.widthAnchor
+    }
+    
+    public var height: NSLayoutDimension {
+        if #available(iOS 11.0, *) {
+            return view.safeAreaLayoutGuide.heightAnchor
+        }
+        return view.heightAnchor
+    }
+    
+    public var centerX: NSLayoutXAxisAnchor {
+        if #available(iOS 11.0, *) {
+            return view.safeAreaLayoutGuide.centerXAnchor
+        }
+        return view.centerXAnchor
+    }
+    
+    public var centerY: NSLayoutYAxisAnchor {
+        if #available(iOS 11.0, *) {
+            return view.safeAreaLayoutGuide.centerYAnchor
+        }
+        return view.centerYAnchor
+    }
 }
 
 extension SGSafeable where Safeable == UIViewController {
@@ -79,6 +127,30 @@ extension SGSafeable where Safeable == UIViewController {
     
     public var right: NSLayoutXAxisAnchor {
         return viewController.view.safe.right
+    }
+    
+    public var leading: NSLayoutXAxisAnchor {
+        return viewController.view.safe.leading
+    }
+    
+    public var trailing: NSLayoutXAxisAnchor {
+        return viewController.view.safe.trailing
+    }
+    
+    public var width: NSLayoutDimension {
+        return viewController.view.safe.width
+    }
+    
+    public var height: NSLayoutDimension {
+        return viewController.view.safe.height
+    }
+    
+    public var centerX: NSLayoutXAxisAnchor {
+        return viewController.view.safe.centerX
+    }
+    
+    public var centerY: NSLayoutYAxisAnchor {
+        return viewController.view.safe.centerY
     }
 }
 
