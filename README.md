@@ -5,14 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/SafeArea.svg?style=flat)](https://cocoapods.org/pods/SafeArea)
 [![Platform](https://img.shields.io/cocoapods/p/SafeArea.svg?style=flat)](https://cocoapods.org/pods/SafeArea)
 
-![iPhoneX-V](https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneX-V.png)
+<img src="https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneX-V.png" alt="iPhoneX-V" width="320">
 
-![iPhoneSE-V](https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneSE-V.png)
+<img src="https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneSE-V.png" alt="iPhoneSE-V" width="320">
 
-![iPhoneX-H](https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneX-H.png)
+<img src="https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneX-H.png" alt="iPhoneX-H" height="320">
 
-![iPhoneSE-H](https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneSE-H.png)
-
+<img src="https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneSE-H.png" alt="iPhoneSE-H" height="320">
 
 ## Example
 
