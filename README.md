@@ -5,6 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/SafeArea.svg?style=flat)](https://cocoapods.org/pods/SafeArea)
 [![Platform](https://img.shields.io/cocoapods/p/SafeArea.svg?style=flat)](https://cocoapods.org/pods/SafeArea)
 
+![iPhoneX-V](https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneSE-H.png)
+
+![iPhoneSE-V](https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneSE-H.png)
+
+![iPhoneX-H](https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneSE-H.png)
+
+![iPhoneSE-H](https://github.com/YQqiang/SafeAreaView/blob/master/iPhoneSE-H.png)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
