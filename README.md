@@ -22,8 +22,10 @@ pod 'SafeArea'
 
 ## Author
 
-oxape, 1054572107@qq.com
+yuqiang, yuqiang.coder@gmail.com
 
 ## License
 
 SafeArea is available under the MIT license. See the LICENSE file for more info.
+
+
