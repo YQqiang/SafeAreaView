@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SafeArea_Example' do
+  pod 'SafeArea', :path => '../'
+
+  target 'SafeArea_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
