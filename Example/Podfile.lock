@@ -1,0 +1,16 @@
+PODS:
+  - SafeArea (0.0.1)
+
+DEPENDENCIES:
+  - SafeArea (from `../`)
+
+EXTERNAL SOURCES:
+  SafeArea:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SafeArea: 1e26542582f3207ee11f07bca292ca7257dfc6c7
+
+PODFILE CHECKSUM: 8dfbe849784ca902102f160a40dda18b35a59365
+
+COCOAPODS: 1.6.0.beta.2
