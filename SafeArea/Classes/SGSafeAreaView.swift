@@ -168,7 +168,7 @@ extension UIViewController: SGSafeable {
     }
 }
 
-open class SGSafeAreaView: UIView {
+@objcMembers open class SGSafeAreaView: UIView {
     public private(set) var containerView: UIView = {
         let v = UIView()
         return v;

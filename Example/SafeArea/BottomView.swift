@@ -17,7 +17,7 @@ class BottomView: SGSafeAreaView {
         b.backgroundColor = UIColor.orange
         b.setTitleColor(UIColor.white, for: .normal)
         b.titleLabel?.font = UIFont.systemFont(ofSize: 15)
-        b.contentEdgeInsets = UIEdgeInsetsMake(8, 0, 8, 0)
+        b.contentEdgeInsets = UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 0)
         return b
     }()
 
